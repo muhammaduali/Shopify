@@ -56,5 +56,3 @@ This project is licensed under the [MIT License](LICENSE).
 - ✨ Inspiration: Modern e-commerce platforms.
 - 🔧 Tools: [VS Code](https://code.visualstudio.com/), [Git](https://git-scm.com/).
 
----
-Feel free to explore, use, and modify this project as needed. Happy coding! 🚀
