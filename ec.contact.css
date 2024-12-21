@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C0F14;
+    align-items: center;
+
+}
+.nav-links{
+    display: flex;
+    padding: 15px;
+    column-gap: 20px;
+
+}
+
+.links a{
+    text-decoration: none;
+    color:#BA9B45;
+    opacity: 0.7;
+}
+.header h1{
+    color:#BA9B45;
+    padding: 15px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    opacity: 100%;
+}
+.toggle{
+    padding: 15px;
+    color:#BA9B45;
+    display: none;
+    cursor: pointer;
+}
+.side-nav{
+    background-color: #0C0F14;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0%;
+    left: -300px;
+    transition: 1.0s;
+}
+.side-nav-links{
+    padding: 10px;
+}
+.side-nav-links p{
+    margin-top: 30px;
+
+}
+.side-links a{
+    text-decoration: none;
+    color: #BA9B45;
+    font-size:20px ;
+}
+.side-links a:hover{
+    text-decoration: underline;
+}
+.contact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contents{
+    width: 60%;
+    background-color: #0C0F14;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.contents input{
+    width: 50vw;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: solid #BA9B45 2px;
+
+}
+.contents textarea{
+    height: 80px;
+    width:50vw;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: solid #BA9B45 2px;
+
+}
+.contents input:focus{
+    outline: none;
+}
+.contents textarea:focus{
+    outline: none;
+}
+.send{
+    padding: 10px;
+    width: 200px;
+    color: white;
+    background-color:#BA9B45;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+
+
+
+.footer{
+    background-color: #0C0F14;
+    color: snow;
+    margin-top: 50px;
+    position:relative;
+    bottom:0;
+}
+.foot-head{
+   padding: 15px;
+
+}
+.foot-icons{
+    padding: 15px;
+}
+.foot-bot{
+    padding: 15px;
+}
+.footer-short{
+    display: none;
+}
+
+
+/* 
+media queries */
+@media screen and (max-width:700px){
+    .toggle{
+        display: block;
+
+    }
+    .nav-links{
+        display: none;
+    }
+    .footer-long{
+        display: none;
+    }
+    .footer-short{
+        display: block;
+    }
+
+}

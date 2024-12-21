@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C0F14;
+    align-items: center;
+
+}
+.nav-links{
+    display: flex;
+    padding: 15px;
+    column-gap: 20px;
+
+}
+
+.links a{
+    text-decoration: none;
+    color:#BA9B45;
+    opacity: 0.7;
+}
+.header h1{
+    color:#BA9B45;
+    padding: 15px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    opacity: 100%;
+}
+.toggle{
+    padding: 15px;
+    color:#BA9B45;
+    display: none;
+    cursor: pointer;
+}
+.side-nav{
+    background-color: #0C0F14;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0%;
+    left: -300px;
+    transition: 1.0s;
+}
+.side-nav-links{
+    padding: 10px;
+}
+.side-nav-links p{
+    margin-top: 30px;
+
+}
+.side-links a{
+    text-decoration: none;
+    color: #BA9B45;
+    font-size:20px ;
+}
+.side-links a:hover{
+    text-decoration: underline;
+}
+.title{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.des{
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+/* .des-cont{ */
+    /* background-color: white;
+    border: solid #BA9B45 2px; */
+    /* padding: 15px;
+    border-radius: 4px; */
+/* } */
+
+.mis{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 15px;
+}
+.mis-cont{
+    background-color: white;
+
+    padding: 15px;
+    border: solid #BA9B45 2px;
+    border-radius: 4px;
+}
+.core{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 15px;
+}
+.core-cont{
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    border: solid #BA9B45 2px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+.footer{
+    background-color: #0C0F14;
+    color: snow;
+    margin-top: 30px;
+}
+.foot-head{
+   padding: 15px;
+
+}
+.foot-icons{
+    padding: 15px;
+}
+.foot-bot{
+    padding: 15px;
+}
+.footer-short{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:700px){
+    .toggle{
+        display: block;
+
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .footer-long{
+        display: none;
+    }
+    .footer-short{
+        display: block;
+    }
+    .core{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 15px;
+        flex-wrap:wrap ;
+    }
+    .core-cont{
+        background-color: white;
+        width: 100px;
+        padding: 20px;
+        border: solid #BA9B45 2px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+}
+
