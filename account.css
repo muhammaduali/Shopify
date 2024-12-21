@@ -161,6 +161,21 @@ media queries */
         cursor: pointer;
     
     }
+    .cont{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .box{
+        width: 20%;
+        background-color: white;
+        border: solid #BA9B45 2px;
+        padding: 15px;
+        border-radius: 4px;
+    }
 
     .footer-long{
         display: none;
