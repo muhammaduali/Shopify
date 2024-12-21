@@ -146,6 +146,20 @@
     .footer-short{
         display: block;
     }
+    .mis{
+    display: flex;
+    justify-content: space-around;  
+    gap: 20px;
+    padding: 15px;
+    flex-wrap:wrap;
+    }
+    .mis-cont{
+    background-color: white;
+    padding: 15px;
+    border: solid #BA9B45 2px;
+    border-radius: 4px;
+
+    }   
     .core{
         display: flex;
         justify-content: space-evenly;
