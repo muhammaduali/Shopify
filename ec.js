@@ -41,7 +41,3 @@ inp.addEventListener("keyup",function(event){
     }
 })
 // logout button
-var but = document.getElementById("logout")
-but.addEventListener("click", function () {
-    window.location.href = "login.html";
-})
