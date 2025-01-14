@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="img\web_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="sign">
+        <div class="sign-cont">
+            <h2 class="head" style="color: white;">SIGN IN</h2>
+            <div class="username"><input type="text" id="use" placeholder="username"></div>
+            <div class="mail"><input type="email" id="mail" placeholder="email" ></div>
+            <div class="password"><input type="password" id="pass" placeholder="password" ></div>
+            <div class="password"><input type="password" id="con-pass" placeholder="confirm password" ></div>
+            <div class="but"><button type="submit" id="sign_but">SIGN IN</button></div>
+            <div class="text" style="color: white;">Already have an account? <a href="login.html" style="color:#BA9B45 ;">LOGIN IN</a> </div>
+        </div>
+    </div>
+
+<script>
+    var sig=document.getElementById("sign_but")
+    var pas=document.getElementById("pass")
+    var conf=document.getElementById("con-pass")
+       
+    sig.addEventListener("click",function(){
+        if (pas.value === conf.value){
+            window.location.href="ec.html"
+        }
+        else{
+            alert("password and confirm password should be the same")
+        }
+        })
+</script>
+    
+</body>
+</html>

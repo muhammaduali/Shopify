@@ -153,9 +153,6 @@ media queries */
     
     }
     .log button:hover{
-        background-color:#0C0F14;
-        border: none;
-        color:#BA9B45;
         cursor: pointer;
     
     }
