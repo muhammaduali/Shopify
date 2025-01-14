@@ -102,14 +102,11 @@
     margin-top: 20px;
 
 }
-
 .pro_box button:hover{
     background-color:#BA9B45;
     color: white;
     
 }
-
-
 .pro_box p{
     margin-top: 10px;
     text-align: center;
