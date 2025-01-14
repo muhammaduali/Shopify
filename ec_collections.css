@@ -102,12 +102,8 @@
     margin-top: 20px;
 
 }
-.pro_box:hover{
-    background-color: #0C0F14;
-    color: white;
-    
-}
-.pro_box:hover button{
+
+.pro_box button:hover{
     background-color:#BA9B45;
     color: white;
     
